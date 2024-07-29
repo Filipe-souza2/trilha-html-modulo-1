@@ -7,56 +7,88 @@
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h1 >Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
-
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    
+    <h2 id="inicio">Índice</h2>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#hitoria">História dos computadores</a></li>
+        <li><a href="#cliente">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#basico">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#lista">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#ref">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia">História dos computadores</h2>
+    <p>O primeiro computador foi o Mark 1 em 1944, um computador eletromecânico que usava válvulas.
+      Em 1946, também tivemos o ENIAC, na época da Segunda Guerra Mundial. Foi nessa época do ENIAC que surgiu o termo "BUG".
+      Em seguida, tivemos a segunda geração, que foi de 1959 a 1965, onde houve a evolução das válvulas para os transistores.
+      Na terceira geração, de 1965 a 1970, os transistores evoluíram para os circuitos integrados.
+      Hoje estamos na quarta geração, que começou em 1971.</p>
+    <p><a href="#inicio">voltar</a></p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="cliente">O que são <i>Clients</i>?</h2>
+    <p>O cliente é o dispositivo que está consumindo uma informação na internet. O cliente se conecta com outro computador pela internet;
+      esse outro computador é o servidor.</p>
+    <p><a href="#inicio">voltar</a></p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <p>Os servidores servem o cliente com as informações que estão armazenadas dentro deles, dependendo do que o cliente requisitar. Existem servidores na internet,
+    que são os que estão na web, e intranets, que são servidores locais. Existem servidores de: arquivos, segurança (firewall), streaming, e-mail, web.</p>
+    <p><a href="#inicio">voltar</a></p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="basico">Como é uma estrutura básica de um HTML?</h2>
+    <p> A estrutura basica do HTML é a tag html que delimita o inicio e o fim do html em si, temos uma tag head que indica oque será carregado,
+       na tag body temos tudo que sera visto pelo cliente dentro da tag body fica tudo que vai ser visto no site é o corpo do site,
+       toda tag tem o seguinte corpo tag aberta: '< elemento >' conteudo da tag, fechamento da tag: '< / elemento >',
+       dentro dessas tags principais podemos usar diversas calsses aqui vão algumas delas:
+      <ul>
+        <li>Tag i deixa o texto em <i>italico</i>;</li>
+        <li>Tag strong deixa o texto em <strong>negrito</strong>;</li>
+        <li>Tag input cria um campo <input type="text">;</li>
+        <li>Tag p cria um paragrafo;</li>
+        <li>Tag h1 ate h6 criam cabeçalhos;</li>
+        <li>Tag u é usada para deixar o texto <u>sublinhado</u>;</li>
+        <li>Tag a utilizamos para fazer links <a href="https://www.google.com.br/?hl=pt-BR"></a>;</li>
+        <li>Tag mark usamos para destar uma palavra ou um texto como um <mark>marca texto</mark>;</li>
+        <li>Tag smal é utilizada para fazer um <small>texto menor</small>;</li>
+        <li>Tag hr é usada para fazer uma divisão no seus conteudos com uma linha;</li>
+        <li>As Tags sub e sup são usadas para mover <sup>para cima</sup> e <sub>para baixo</sub> o texto;</li>
+        <li>Tag blockquote é usada para fazer uma citação;</li>
+        <li>As tags ul,ol,li são usadas para lista com ordenação e sem ordenação;</li>
+        <li>Tag font é usada para mudar aparencia do como fonte cor e tamanho, no entanto é uam tag que foi retirada no html 5 e não é mais usado assim a tornando obsoleta;</li>
+        <li>Tag del representa uma parte do texto que foi excluida ele faz um risco no meio da <del>texto</del>;</li>
+        <li>Tag abbr eu uso para fazer uma abreviação <abbr title="league of legends">LOL</abbr>.</li>
+      </ul>
+      </p>
+    <p><a href="#inicio">voltar</a></p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="lista">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <p>Ambas as tags são utilizadas para fazer listas ol usada para lista com ordenação e ul lista sem ordenação
+       li é uma tag filha que herda as propriedades da tag e pai e usada para que possa preencher a lista.</p>
+    <p>Exemplo de lista ordenada:
+      <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ol>
+    </p>
+    <p>Exemplo de lista sem ordenação:
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </p>
+    <p><a href="#inicio">voltar</a></p>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="ref">Links de referências</h2>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">https://www.w3schools.com/html/</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTML</a></li>
     </ul>
+    <p><a href="#inicio">voltar</a></p>
 
 </body>
 </html>
